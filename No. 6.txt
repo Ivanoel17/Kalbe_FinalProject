@@ -1,0 +1,11 @@
+
+Menurut kasus yang terdapat di gambar, kesalahan dapat ditemukan pada atribut plant. 
+Penggunaan atribut plant harus diisi, tetapi pada table dapat dilihat bahwa tidak ada 
+constraint NOT NULL sehingga atribut ddPlant dapat diisi dengan value NULL.
+
+Oleh karena itu, solusi supaya tidak diisi dengan value NULL adalah menambahkan
+constraint NOT NULL pada atribut ddPlant. 
+
+Berikut merupakan query solusi yang dapat digunakan :
+ALTER TABLE table_name
+MODIFY COLUMN ddPlant varhcar(max) NOT NULL; 
