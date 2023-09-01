@@ -1,10 +1,8 @@
 
 Menurut kasus yang terdapat di gambar, kesalahan dapat ditemukan pada atribut plant. 
-Penggunaan atribut plant harus diisi, tetapi pada table dapat dilihat bahwa tidak ada 
-constraint NOT NULL sehingga atribut ddPlant dapat diisi dengan value NULL.
+Kesalahan terletak pada referensi tabel yang penggunaannya belum sesuai dan tipe data yang tidak sesuai atau tidak konsisten. 
 
-Oleh karena itu, solusi supaya tidak diisi dengan value NULL adalah menambahkan
-constraint NOT NULL pada atribut ddPlant. 
+Hal tersebut dapat terlihat pada tabel atribut ddplant. Dimana masih ada kemungkinan mendapatkan nilai NULL, dimana hal tersebut kurang sesuai. Seharusnya supaya tidak ada nilai NULL tersebut maka ditambahkan NOT NULL constraint pada atribut ddplant.
 
 Berikut merupakan query solusi yang dapat digunakan :
 ALTER TABLE table_name
