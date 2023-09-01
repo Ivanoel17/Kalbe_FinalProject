@@ -2,7 +2,9 @@
 Menurut kasus yang terdapat di gambar, kesalahan dapat ditemukan pada atribut plant. 
 Kesalahan terletak pada referensi tabel yang penggunaannya belum sesuai dan tipe data yang tidak sesuai atau tidak konsisten. 
 
-Hal tersebut dapat terlihat pada tabel atribut ddplant. Dimana masih ada kemungkinan mendapatkan nilai NULL, dimana hal tersebut kurang sesuai. Seharusnya supaya tidak ada nilai NULL tersebut maka ditambahkan NOT NULL constraint pada atribut ddplant.
+Hal tersebut dapat terlihat pada tabel atribut ddplant. Dimana masih ada kemungkinan mendapatkan nilai NULL, 
+dimana hal tersebut kurang sesuai. Seharusnya supaya tidak ada nilai NULL tersebut maka 
+ditambahkan NOT NULL constraint pada atribut ddplant.
 
 Berikut merupakan query solusi yang dapat digunakan :
 ALTER TABLE table_name
