@@ -1,0 +1,1 @@
+(crontab -l ; echo "0 7 * * * E:/ITB/Kalbe Internship/Final Project/no1.sh") | crontab -
